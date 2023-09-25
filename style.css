@@ -147,6 +147,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 29.50px; 
+    border: 1px rgba(255, 255, 255, 0.40) solid; 
+    backdrop-filter: blur(50px);
 }
 .trial .t1{
 color: #FFFFFF;
@@ -162,6 +166,7 @@ font-weight: 900;
      padding-bottom: 20px;
      padding-right: 2rem;
      padding-left: 2rem;
+     gap: 16px;
 }
 .date .day div:nth-child(1){
     color: #EFF0FC;
@@ -171,7 +176,7 @@ font-weight: 900;
 }
 
 .date .day div:nth-child(2){
-    background: url(./asserts/dataBg.png);
+    /* background: url(./asserts/dataBg.png); */
     font-size: 26px;
     color: #EFF0FC;
     background-size: 90% 90%;
@@ -179,6 +184,10 @@ font-weight: 900;
     padding: 20px;
     background-repeat: no-repeat;
     background-position: center;
+    background: rgba(255, 255, 255, 0.05); 
+    border-radius: 20px; 
+    border: 1px rgba(255, 255, 255, 0.40) solid; 
+    backdrop-filter: blur(50px)
 }
 
 .date .day{
@@ -237,16 +246,21 @@ margin-top: 5rem;
     display: flex;
     padding-right: 7rem;
     justify-content: center;
+    gap: 1rem;
 }
 #card .card1{
-    background: url(./asserts/E1.png);
+    /* background: url(./asserts/E1.png); */
     background-size: 95% 100%;
     padding: 20px;
     background-position: center;
     background-repeat: no-repeat;
     text-align: -webkit-center;
     width: 27%;
-
+    background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%); 
+    border-radius: 20px; 
+    border: 2px white solid; 
+    border-top: 0.1px white solid; 
+    backdrop-filter: blur(50px)
 }
 #card img{
     margin-bottom: 15px;
@@ -258,12 +272,17 @@ margin-top: 5rem;
     font-weight: bold;
 }
 #card .card3{
-    background: url(./asserts/E2.png);
+    /* background: url(./asserts/E2.png); */
     background-size: 95% 100%;
     padding: 20px;
     background-position: center;
     background-repeat: no-repeat;
     text-align: -webkit-center;
+    background: linear-gradient(197deg, rgba(58, 52, 199, 0.03) 0%, rgba(58, 52, 199, 0.15) 100%); 
+    border-radius: 20px; 
+    border: 2px #3A34C7 solid; 
+    border-top: 0.1px #3A34C7 solid;
+    backdrop-filter: blur(50px);
 }
 
 
@@ -357,13 +376,20 @@ font-weight: bold;
     padding-right: 5rem;
 }
 #bannercards .card1{
-    background: url(./asserts/Banner.png);
+    /* background: url(./asserts/Banner.png); */
     background-size: contain;
     padding: 20px;
     /* background-position: center; */
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border-radius: 20px;
+    border: 2px white solid;
+    backdrop-filter: blur(50px);
+    height: 24rem;
+    margin-bottom: 4rem;
+    border-top: 0.1px white solid;
 }
 .card1 .text1 p:nth-child(1){
     font-size: 40px;
@@ -388,11 +414,11 @@ font-weight: bold;
 }
 
 .card2img{
-  margin-top: -2rem!important;
+  margin-top: -4rem!important;
 }
-#bannercards div:nth-child(2){
+/* #bannercards div:nth-child(2){
   margin-top: -3rem;
-}
+} */
 
 
 #bannercards div:nth-child(3){
@@ -486,7 +512,7 @@ font-weight: bold;
   .plan1 {
     display: inline-flex;
     flex-direction: column;
-    background: url(./asserts/PricingCard.png);
+    /* background: url(./asserts/PricingCard.png); */
     width: 100%;
     border-top: none;
     margin-right: 33px;
@@ -494,6 +520,10 @@ font-weight: bold;
     background-repeat: no-repeat;
     /* background-size: contain; */
     background-size: 100% 100%;
+    background: rgba(255, 255, 255, 0.05); 
+    border-radius: 29.50px; 
+    border: 1px rgba(255, 255, 255, 0.40) solid; 
+    backdrop-filter: blur(50px);
   }
 
   .gettext {
@@ -607,19 +637,29 @@ font-size: 50px;
   margin-left: 3rem;
 }
 .contactcard1{
-  background: url(./asserts/contactBg.png)!important;
-  background-size: 95% 100%!important;
+  /* background: url(./asserts/contactBg.png)!important; */
+  /* background-size: 95% 100%!important; */
   padding: 20px!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
   text-align: -webkit-center;
   width: 30%!important;
+  background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%); 
+  border-radius: 20px; 
+  border: 2px white solid; 
+  backdrop-filter: blur(40px);
 }
 .c-card{
   padding: 0!important;
   gap: 3rem;
 }
 
+.c-card div:nth-child(3){
+  background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%)!important; 
+  border-radius: 20px!important; 
+  border: 2px white solid!important; 
+  backdrop-filter: blur(40px)!important;
+}
 /* --------- */
 .custom-form {
   /* background: #667085; */
@@ -668,6 +708,11 @@ textarea {
   background-color: #0f0b1f;
   outline: none;
   /* background-color: white; */
+  background: rgba(255, 255, 255, 0.05); 
+  border-radius: 29.50px; 
+  overflow: hidden; 
+  border: 1px rgba(255, 255, 255, 0.30) solid; 
+  backdrop-filter: blur(50px);
 }
 
 textarea{
@@ -689,6 +734,10 @@ textarea{
   flex-direction: column;
   width: 63%;
   padding: 43px; /* Adjust the width as needed */
+   background: rgba(255, 255, 255, 0.05); 
+   border-radius: 29.50px; 
+   border: 1px rgba(255, 255, 255, 0.40) solid; 
+   backdrop-filter: blur(50px);
 }
 
 
@@ -960,3 +1009,24 @@ textarea{
   animation: slideIn 1s ease-in-out forwards;
 }
 
+.progress-bar {
+  width: 84%;
+  height: 20px;
+  background-color: #ccc;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  opacity: 0.50; 
+  background: rgba(255, 255, 255, 0.05); 
+  border-radius: 20px; 
+  border: 1px rgba(255, 255, 255, 0.40) solid;
+   backdrop-filter: blur(50px);
+   margin: auto;
+}
+
+.progress {
+  height: 100%;
+  width: 50%; /* Initial value */
+  background-color: #635DFF;
+  transition: width 1s linear;
+}
