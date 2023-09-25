@@ -935,3 +935,28 @@ textarea{
     padding: 18px;
  }
 }
+
+
+/* Define the initial state of the animated element */
+.animated-section {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+/* Create a CSS animation with keyframes */
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Apply the animation to the element */
+.animated-section  {
+  animation: slideIn 1s ease-in-out forwards;
+}
+

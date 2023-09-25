@@ -25,3 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
       backgroundContainer.style.transform = `translateY(${offsetY}px)`;
   });
   
+
+ 
+  function playAnimation() {
+    const section = document.querySelector('.animated-section');
+    section.classList.add('animate');
+}
+
+// Listen for the "DOMContentLoaded" event to ensure the page is fully loaded
+document.addEventListener('DOMContentLoaded', playAnimation);
+
