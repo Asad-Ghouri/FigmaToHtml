@@ -1099,3 +1099,24 @@ textarea{
 .sub-button:hover {
   opacity: 0.8; /* Adjust opacity on hover to give a visual indication */
 }
+
+
+
+@media (max-width:370px){
+  #contactus{
+    margin-top: 41rem;
+  }
+  .contactcard1 {
+    width: 48%!important;
+}
+#card p {
+  font-size: 12px;
+  width: 100%;
+  color: white;
+}
+.trial {
+  margin-top: 1rem;
+  margin-right: -16px;
+  background-size: 86% 98%;
+}
+}
