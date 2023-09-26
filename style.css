@@ -147,9 +147,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -2rem;
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.05); */
     border-radius: 29.50px; 
-    border: 1px rgba(255, 255, 255, 0.40) solid; 
+    /* border: 1px rgba(255, 255, 255, 0.40) solid;  */
     backdrop-filter: blur(50px);
 }
 .trial .t1{
@@ -241,7 +241,7 @@ margin-top: 5rem;
 /* ----- */
 
 #card{
-    margin-top: 5rem;
+    margin-top: 12rem;
     padding-left: 7rem;
     display: flex;
     padding-right: 7rem;
@@ -259,7 +259,7 @@ margin-top: 5rem;
     background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%); 
     border-radius: 20px; 
     border: 2px white solid; 
-    border-top: 0.1px white solid; 
+    border-top: 0.01px white solid; 
     backdrop-filter: blur(50px)
 }
 #card img{
@@ -316,7 +316,8 @@ margin-top: 5rem;
     position: relative;
     /* width: 500px; */
     /* height: 300px; */
-    margin-top: -10rem;
+    margin-top: -8rem;
+    right: -3rem;
   }
   
   .background-image {
@@ -357,7 +358,7 @@ margin-top: 5rem;
 }
 
 .data-text{
-    margin-top: 5rem;
+    margin-top: 12rem;
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 50px;
@@ -389,7 +390,7 @@ font-weight: bold;
     backdrop-filter: blur(50px);
     height: 24rem;
     margin-bottom: 4rem;
-    border-top: 0.1px white solid;
+    border-top: 0.1px white solid!important;
 }
 .card1 .text1 p:nth-child(1){
     font-size: 40px;
@@ -422,11 +423,11 @@ font-weight: bold;
 
 
 #bannercards div:nth-child(3){
-  margin-top: -1rem;
+  margin-top: 0rem;
 }
 /* ------ */
 .membership{
-    margin-top: 5rem;
+    margin-top: 12rem;
     padding-left: 5rem;
     padding-right: 5rem;
     display: flex;
@@ -620,7 +621,7 @@ font-weight: bold;
 /* -------- */
 
 #contactus{
-   margin-top: 10rem;
+   margin-top: 16rem;
   padding-left: 5rem;
   /* display: flex; */
   padding-right: 5rem;
@@ -643,15 +644,16 @@ font-size: 50px;
   background-position: center!important;
   background-repeat: no-repeat!important;
   text-align: -webkit-center;
-  width: 30%!important;
+  width: 25%!important;
   background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%); 
   border-radius: 20px; 
   border: 2px white solid; 
   backdrop-filter: blur(40px);
 }
 .c-card{
+  margin-top: 4rem!important;
   padding: 0!important;
-  gap: 3rem;
+  gap: 7rem!important;
 }
 
 .c-card div:nth-child(3){
@@ -667,8 +669,8 @@ font-size: 50px;
   color: white;
   font-family: Arial, sans-serif;
   margin-top: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .row {
@@ -801,6 +803,14 @@ textarea{
   }
   .trial{
     margin-top: 1rem;
+    margin-right: 5px;
+  }
+
+  .date{
+    gap: 8px;
+  }
+  .date .day div:nth-child(2){
+    font-size: 19px;
   }
   .text .t1 {
     font-size: 35px;
@@ -829,11 +839,11 @@ textarea{
 }
 #card {
   margin-top: 4rem;
-  padding-left: 0rem;
+  padding-left: 6px;
   display: flex;
   padding-right: 0rem;
   flex-wrap: wrap;
-  gap: 3px;
+  gap: 4px;
   justify-content: flex-start;
 }
 #card .card1{
@@ -884,15 +894,16 @@ textarea{
   margin-left: -4rem;
 }
 #bannercards .card1 {
-  background: url(./asserts/Banner.png);
-  background-size: cover;
+  /* background: url(./asserts/Banner.png);
+  background-size: cover; */
   padding: 20px;
-  background-size: 100% 84%;
+  /* background-size: 100% 84%; */
   /* background-position: center; */
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: 42rem;
 }
 .card1 .text1 p:nth-child(1) {
   font-size: 26px;
@@ -983,6 +994,9 @@ textarea{
   width: 100%;
     padding: 18px;
  }
+ .c-card{
+  gap: 7px!important;
+ }
 }
 
 
@@ -1029,4 +1043,59 @@ textarea{
   width: 50%; /* Initial value */
   background-color: #635DFF;
   transition: width 1s linear;
+}
+
+
+/* ---- sub buttons-- */
+/* Reset default button styles */
+.subMainButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.sub-button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sub-button-container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 100px;
+  border: 1px rgba(255, 255, 255, 0.30) solid;
+  backdrop-filter: blur(50px);
+  display: inline-flex;
+  padding: 2px;
+}
+
+.sub-button.with-bg {
+  background: #635DFF;
+  border-radius: 100px;
+  border: none;
+  padding: 27px;
+  color: white;
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 0.20px;
+  word-wrap: break-word;
+  font-family: Poppins;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.sub-button.without-bg {
+  /* background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;  */
+  color: #635DFF;
+  border: none;
+  background: none;
+  margin-left: 10px; /* Add some spacing between buttons */
+}
+
+/* Hover styles (optional) */
+.sub-button:hover {
+  opacity: 0.8; /* Adjust opacity on hover to give a visual indication */
 }
