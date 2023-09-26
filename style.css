@@ -258,8 +258,10 @@ margin-top: 5rem;
     width: 27%;
     background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%); 
     border-radius: 20px; 
-    border: 2px white solid; 
-    border-top: 0.01px white solid; 
+    /* border: 2px white solid; 
+    border-top: 0.01px white solid;  */
+    border: 2px #787878 solid;
+    border-top: 0.01px solid transparent;
     backdrop-filter: blur(50px)
 }
 #card img{
@@ -280,8 +282,10 @@ margin-top: 5rem;
     text-align: -webkit-center;
     background: linear-gradient(197deg, rgba(58, 52, 199, 0.03) 0%, rgba(58, 52, 199, 0.15) 100%); 
     border-radius: 20px; 
-    border: 2px #3A34C7 solid; 
-    border-top: 0.1px #3A34C7 solid;
+    /* border: 2px #3A34C7 solid; 
+    border-top: 0.1px #3A34C7 solid; */
+    border: 2px #262185ff solid;
+      border-top: 0.1px transparent solid;
     backdrop-filter: blur(50px);
 }
 
@@ -659,7 +663,9 @@ font-size: 50px;
 .c-card div:nth-child(3){
   background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%)!important; 
   border-radius: 20px!important; 
-  border: 2px white solid!important; 
+  /* border: 2px white solid!important;  */
+  border: 2px #787878 solid!important;
+    border-top: 0.01px solid transparent!important;
   backdrop-filter: blur(40px)!important;
 }
 /* --------- */
@@ -1102,7 +1108,7 @@ textarea{
 
 
 
-@media (max-width:370px){
+@media (max-width:380px){
   #contactus{
     margin-top: 41rem;
   }
