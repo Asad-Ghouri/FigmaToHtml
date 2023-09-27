@@ -391,10 +391,12 @@ font-weight: bold;
     background: linear-gradient(197deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.15) 100%);
     border-radius: 20px;
     border: 2px white solid;
+    border: 2px #787878 solid;
+        border-top: 2px solid transparent;
     backdrop-filter: blur(50px);
     height: 24rem;
     margin-bottom: 4rem;
-    border-top: 0.1px white solid!important;
+    /* border-top: 0.1px white solid!important; */
 }
 .card1 .text1 p:nth-child(1){
     font-size: 40px;
@@ -487,7 +489,8 @@ font-weight: bold;
     top: 28.5%;
     left: 22%;
     transform: translate(-50%, -50%);
-    background-color: #2D2268;
+    /* background-color: #2D2268; */
+    background-color: unset;
     border-radius: 25px;
     border: 1px solid #9E9E9E;
     padding: 0 20px;
@@ -721,6 +724,7 @@ textarea {
   overflow: hidden; 
   border: 1px rgba(255, 255, 255, 0.30) solid; 
   backdrop-filter: blur(50px);
+  color: white;
 }
 
 textarea{
@@ -1125,4 +1129,48 @@ textarea{
   margin-right: -16px;
   background-size: 86% 98%;
 }
+}
+.p-button.active {
+  z-index: 2;
+  text-align: center;
+  background-color: #2D2268; /* Highlighted button background color */
+}
+
+
+
+
+
+
+
+
+
+/* styles.css */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 17%;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  text-align: center;
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  max-width: 800px;
+  /* background-color: #fff; */
+  padding: 20px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
 }
