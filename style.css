@@ -241,7 +241,7 @@ margin-top: 5rem;
 /* ----- */
 
 #card{
-    margin-top: 12rem;
+    margin-top: 7rem;
     padding-left: 7rem;
     display: flex;
     padding-right: 7rem;
@@ -299,7 +299,7 @@ margin-top: 5rem;
 }
 
 #video{
-    margin-top: 20rem;
+    margin-top: 10rem;
     padding-left: 5rem;
     padding-right: 0;
 }
@@ -362,7 +362,7 @@ margin-top: 5rem;
 }
 
 .data-text{
-    margin-top: 12rem;
+    margin-top: 7rem;
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 50px;
@@ -392,7 +392,7 @@ font-weight: bold;
     border-radius: 20px;
     border: 2px white solid;
     border: 2px #787878 solid;
-        border-top: 2px solid transparent;
+        border-top:none;
     backdrop-filter: blur(50px);
     height: 24rem;
     margin-bottom: 4rem;
@@ -433,7 +433,7 @@ font-weight: bold;
 }
 /* ------ */
 .membership{
-    margin-top: 12rem;
+    margin-top: 6rem;
     padding-left: 5rem;
     padding-right: 5rem;
     display: flex;
@@ -628,7 +628,7 @@ font-weight: bold;
 /* -------- */
 
 #contactus{
-   margin-top: 16rem;
+   margin-top: 10rem;
   padding-left: 5rem;
   /* display: flex; */
   padding-right: 5rem;
@@ -795,7 +795,7 @@ textarea{
 
 .fheading{
   font-size: 50px;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 @media (max-width:600px){
